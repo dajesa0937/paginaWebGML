@@ -1,0 +1,88 @@
+# -----------------------------------
+# Global de Maquinaria y Lubricantes
+# Proyecto Web estático (HTML, CSS, JS)
+# -----------------------------------
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Carpetas del sistema operativo
+$RECYCLE.BIN/
+System Volume Information/
+
+# Archivos temporales o de respaldo
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.old
+
+# Archivos ocultos de editores
+.vscode/
+.idea/
+*.code-workspace
+
+# Archivos de Git temporales
+*.orig
+
+# Archivos ZIP o exportados
+*.zip
+*.rar
+*.7z
+
+# Caché de navegadores o build (si usas alguna herramienta)
+.cache/
+dist/
+build/
+node_modules/
+
+# Configuraciones locales
+.env
+.env.local
+# -----------------------------------
+# Global de Maquinaria y Lubricantes
+# Proyecto Web estático (HTML, CSS, JS)
+# -----------------------------------
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Carpetas del sistema operativo
+$RECYCLE.BIN/
+System Volume Information/
+
+# Archivos temporales o de respaldo
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.old
+
+# Archivos ocultos de editores
+.vscode/
+.idea/
+*.code-workspace
+
+# Archivos de Git temporales
+*.orig
+
+# Archivos ZIP o exportados
+*.zip
+*.rar
+*.7z
+
+# Caché de navegadores o build (si usas alguna herramienta)
+.cache/
+dist/
+build/
+node_modules/
+
+# Configuraciones locales
+.env
+.env.local
