@@ -1,115 +1,249 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Global de Maquinaria y Lubricantes - Venta de maquinaria agrícola, motores y repuestos.">
-  <title>Global de Maquinaria y Lubricantes</title>
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="icon" type="image/png" href="images/favicon.png">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Global de Maquinaria y Lubricantes - Venta de maquinaria agrícola, motores y repuestos."
+    />
+    <title>Global de Maquinaria y Lubricantes</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
 
-  <script defer src="js/script.js"></script>
-</head>
-<body>
-  <header class="header">
-    <div class="logo">
-      <img src="images/logoGML.jpg" alt="Logo Global de Maquinaria y Lubricantes">
+    <script defer src="js/script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <img
+          src="images/logoGML.jpg"
+          alt="Logo Global de Maquinaria y Lubricantes"
+        />
+      </div>
+      <h1>Global de Maquinaria y Lubricantes</h1>
+    </header>
+
+    <section class="hero">
+      <h2>Soluciones confiables en maquinaria y repuestos</h2>
+      <p>
+        Maquinaria, Repuestos y Accesorios para todo tipo de Motores Fuera de
+        Borda Yamaha, Suzuki, Motores a Gasolina, Diesel, Guadañadoras Fujita,
+        Motosierra y otros, además de Aceites y Lubricantes de alta calidad para
+        el mantenimiento óptimo de tus equipos.
+      </p>
+    </section>
+
+    <main class="product-section">
+      <h2>Nuestros Productos</h2>
+      <div class="product-grid">
+        <div class="card">
+          <img
+            src="images/Guadaña_Proesional_Fujita.jpg"
+            alt="Guadañadora Fujita Profesional"
+            onclick="expandImage(this)"
+          />
+          <h3>Modelo FC53Pro</h3>
+          <p>Potencia y Trabajo Duro</p>
+          <span class="price">$1.950.000</span>
+          <a
+            href="https://wa.me/573108394870?text=Hola,%20quiero%20más%20información%20sobre%20la%20Guadañadora%20Stihl%20FS%2055"
+            class="whatsapp-btn"
+            >Consultar por WhatsApp</a
+          >
+        </div>
+
+        <div class="card">
+          <img
+            src="images/motorEarrow_15.jpg"
+            alt="Motor Fuera de Borda 15 HP"
+            onclick="expandImage(this)"
+          />
+          <h3>Motor Fuera de Borda 15 HP</h3>
+          <p>Confiable y Optimo para la Pesca</p>
+          <span class="price">$6.200.000</span>
+          <a
+            href="https://wa.me/573108394870?text=Hola,%20quiero%20más%20información%20sobre%20el%20Motor%20Fuera%20de%20Borda%204HP"
+            class="whatsapp-btn"
+            >Consultar por WhatsApp</a
+          >
+        </div>
+
+        <div class="card">
+          <img
+            src="images/Grasa.jpg"
+            alt="Grasa Para Guadañadoras"
+            onclick="expandImage(this)"
+          />
+          <h3>Grasa Para Guadañadoras</h3>
+          <p>Viscosidad adecuada para sus Equipos</p>
+          <span class="price">$13.000</span>
+          <a
+            href="https://wa.me/573108394870?text=Hola,%20quiero%20más%20información%20sobre%20el%20Generador%20Eléctrico%203kW"
+            class="whatsapp-btn"
+            >Consultar por WhatsApp</a
+          >
+        </div>
+
+        <div class="card">
+          <img
+            src="images/lubricante-aceite-fd.png"
+            alt="Lubricantes 2 Tiempos"
+            onclick="expandImage(this)"
+          />
+          <h3>Aceite 2 Tiempos</h3>
+          <p>Protección de alto rendimiento</p>
+          <span class="price">$33.000 - 118.000</span>
+          <a
+            href="https://wa.me/573108394870?text=Hola,%20quiero%20más%20información%20sobre%20el%20Filtro%20de%20Aceite%20Universal"
+            class="whatsapp-btn"
+            >Consultar por WhatsApp</a
+          >
+        </div>
+
+        <div class="card">
+          <img
+            src="images/fumigadora_fujita.jpg"
+            alt="Fumigadora Fujita"
+            onclick="expandImage(this)"
+          />
+          <h3>Fumigadora de Piston Fujita</h3>
+          <p>Protección para sus cultivos</p>
+          <span class="price">$730.000</span>
+          <a
+            href="https://wa.me/573108394870?text=Hola,%20quiero%20más%20información%20sobre%20el%20Aceite%2010W-30%201L"
+            class="whatsapp-btn"
+            >Consultar por WhatsApp</a
+          >
+        </div>
+
+        <div class="card">
+          <img
+            src="images/heliceMotor.jpg"
+            alt="Hélice para motor fuera de borda"
+            onclick="expandImage(this)"
+          />
+          <h3>Hélice motor fuera de borda</h3>
+          <p>Resistente y eficiente</p>
+          <span class="price">$250.000</span>
+          <a
+            href="https://wa.me/573108394870?text=Hola,%20quiero%20más%20información%20sobre%20la%20Hélice%20para%20motor%20fuera%20de%20borda"
+            class="whatsapp-btn"
+            >Consultar por WhatsApp</a
+          >
+        </div>
+        <div class="card">
+          <img
+            src="images/Cortasetos-Fujita-FC26081560-1-50-1536x840.jpg"
+            alt="Cortacetos"
+            onclick="expandImage(this)"
+          />
+          <h3>Cortasetos Fujita</h3>
+          <p>Herramienta agil y potente</p>
+          <span class="price">$Consultar</span>
+          <a
+            href="https://wa.me/573108394870?text=Hola,%20quiero%20más%20información%20sobre%20la%20Hélice%20para%20motor%20fuera%20de%20borda"
+            class="whatsapp-btn"
+            >Consultar por WhatsApp</a
+          >
+        </div>
+        <div class="card">
+          <img
+            src="images/01-Fumigadora-Estacionaria-30L-B3HL30L65M-v2-1536x840.jpg"
+            alt="Fumgadora estacionaria"
+            onclick="expandImage(this)"
+          />
+          <h3>Fumigadora Estacionaria 30 L</h3>
+          <p>Trabajo profesional</p>
+          <span class="price">$Consultar</span>
+          <a
+            href="https://wa.me/573108394870?text=Hola,%20quiero%20más%20información%20sobre%20la%20Hélice%20para%20motor%20fuera%20de%20borda"
+            class="whatsapp-btn"
+            >Consultar por WhatsApp</a
+          >
+        </div>
+        <div class="card">
+          <img
+            src="images/Motosierra-Fujita-FC452545-1-50-1536x840.jpg"
+            alt="Motosierra Fujita"
+            onclick="expandImage(this)"
+          />
+          <h3>Motosierra Fujita</h3>
+          <p>Agil y Practica</p>
+          <span class="price">$Consultar</span>
+          <a
+            href="https://wa.me/573108394870?text=Hola,%20quiero%20más%20información%20sobre%20la%20Hélice%20para%20motor%20fuera%20de%20borda"
+            class="whatsapp-btn"
+            >Consultar por WhatsApp</a
+          >
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-brand">
+          <h4>Global de Maquinaria y Lubricantes</h4>
+          <p>
+            Medellín, Colombia<br />
+            Tel: +57 310 839 48 70<br />
+            Email: globaldemaquinariaylubricantes@gmail.com
+          </p>
+        </div>
+
+        <div class="footer-social">
+          <span>Síguenos</span>
+          <div class="social-icons">
+            <a
+              href="https://www.facebook.com/profile.php?id=61585864270418&locale=es_ES"
+              target="_blank"
+              aria-label="Facebook"
+            >
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a
+              href="https://www.instagram.com/globaldemaquinaria/"
+              target="_blank"
+              aria-label="Instagram"
+            >
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a
+              href="https://wa.me/573108394870"
+              target="_blank"
+              aria-label="WhatsApp"
+            >
+              <i class="fab fa-whatsapp"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>
+          &copy; 2026 Global de Maquinaria y Lubricantes. Todos los derechos
+          reservados.
+        </p>
+      </div>
+    </footer>
+
+    <!-- Modal para ampliar imagen -->
+    <div
+      id="imageModal"
+      class="modal"
+      aria-hidden="true"
+      role="dialog"
+      aria-label="Imagen ampliada"
+    >
+      <button class="close" aria-label="Cerrar imagen">&times;</button>
+      <img class="modal-content" id="expandedImg" alt="" />
+      <a id="modalWhatsappBtn" href="#" target="_blank" class="whatsapp-btn"
+        >Consultar por WhatsApp</a
+      >
     </div>
-    <h1>Global de Maquinaria y Lubricantes</h1>
-  </header>
-
-  <section class="hero">
-    <h2>Soluciones confiables en maquinaria y repuestos</h2>
-    <p>Maquinaria, Repuestos y Accesorios para todo tipo de Motores Fuera de Borda Yamaha, Suzuki, Motores a Gasolina, Diesel, Guadañadoras
-       Fujita, Motosierra y otros, además de Aceites y Lubricantes de alta calidad para el mantenimiento óptimo de tus equipos.
-    </p>
-  </section>
-
-  <main class="product-section">
-    <h2>Nuestros Productos</h2>
-    <div class="product-grid">
-
-      <div class="card">
-        <img src="images/Guadaña_Proesional_Fujita.jpg" alt="Guadañadora Fujita Profesional" onclick="expandImage(this)">
-        <h3>Modelo FC53Pro </h3>
-        <p>Potencia y Trabajo Duro</p>
-        <span class="price">$1.950.000</span>
-        <a href="https://wa.me/573108394870?text=Hola,%20quiero%20más%20información%20sobre%20la%20Guadañadora%20Stihl%20FS%2055" class="whatsapp-btn">Consultar por WhatsApp</a>
-      </div>
-
-      <div class="card">
-        <img src="images/motorEarrow_15.jpg" alt="Motor Fuera de Borda 15 HP" onclick="expandImage(this)">
-        <h3>Motor Fuera de Borda 15 HP</h3>
-        <p>Confiable y Optimo para la Pesca</p>
-        <span class="price">$6.200.000</span>
-        <a href="https://wa.me/573108394870?text=Hola,%20quiero%20más%20información%20sobre%20el%20Motor%20Fuera%20de%20Borda%204HP" class="whatsapp-btn">Consultar por WhatsApp</a>
-      </div>
-
-      <div class="card">
-        <img src="images/Grasa.jpg" alt="Grasa Para Guadañadoras" onclick="expandImage(this)">
-        <h3>Grasa Para Guadañadoras</h3>
-        <p>Viscosidad adecuada para sus Equipos</p>
-        <span class="price">$13.000</span>
-        <a href="https://wa.me/573108394870?text=Hola,%20quiero%20más%20información%20sobre%20el%20Generador%20Eléctrico%203kW" class="whatsapp-btn">Consultar por WhatsApp</a>
-      </div>
-
-      <div class="card">
-        <img src="images/lubricante-aceite-fd.png" alt="Lubricantes 2 Tiempos" onclick="expandImage(this)">
-        <h3>Aceite 2 Tiempos</h3>
-        <p>Protección de alto rendimiento</p>
-        <span class="price">$33.000 - 118.000</span>
-        <a href="https://wa.me/573108394870?text=Hola,%20quiero%20más%20información%20sobre%20el%20Filtro%20de%20Aceite%20Universal" class="whatsapp-btn">Consultar por WhatsApp</a>
-      </div>
-
-      <div class="card">
-        <img src="images/fumigadora_fujita.jpg" alt="Fumigadora Fujita" onclick="expandImage(this)">
-        <h3>Fumigadora de Piston Fujita</h3>
-        <p>Protección para sus cultivos</p>
-        <span class="price">$730.000</span>
-        <a href="https://wa.me/573108394870?text=Hola,%20quiero%20más%20información%20sobre%20el%20Aceite%2010W-30%201L" class="whatsapp-btn">Consultar por WhatsApp</a>
-      </div>
-
-      <div class="card">
-        <img src="images/heliceMotor.jpg" alt="Hélice para motor fuera de borda" onclick="expandImage(this)">
-        <h3>Hélice motor fuera de borda</h3>
-        <p>Resistente y eficiente</p>
-        <span class="price">$250.000</span>
-        <a href="https://wa.me/573108394870?text=Hola,%20quiero%20más%20información%20sobre%20la%20Hélice%20para%20motor%20fuera%20de%20borda" class="whatsapp-btn">Consultar por WhatsApp</a>
-      </div>
-      <div class="card">
-        <img src="images/Cortasetos-Fujita-FC26081560-1-50-1536x840.jpg" alt="Cortacetos" onclick="expandImage(this)">
-        <h3>Cortasetos Fujita</h3>
-        <p>Herramienta agil y potente</p>
-        <span class="price">$Consultar</span>
-        <a href="https://wa.me/573108394870?text=Hola,%20quiero%20más%20información%20sobre%20la%20Hélice%20para%20motor%20fuera%20de%20borda" class="whatsapp-btn">Consultar por WhatsApp</a>
-      </div>
-      <div class="card">
-        <img src="images/01-Fumigadora-Estacionaria-30L-B3HL30L65M-v2-1536x840.jpg" alt="Fumgadora estacionaria" onclick="expandImage(this)">
-        <h3>Fumigadora Estacionaria 30 L </h3>
-        <p>Trabajo profesional</p>
-        <span class="price">$Consultar</span>
-        <a href="https://wa.me/573108394870?text=Hola,%20quiero%20más%20información%20sobre%20la%20Hélice%20para%20motor%20fuera%20de%20borda" class="whatsapp-btn">Consultar por WhatsApp</a>
-      </div>
-      <div class="card">
-        <img src="images/Motosierra-Fujita-FC452545-1-50-1536x840.jpg" alt="Motosierra Fujita" onclick="expandImage(this)">
-        <h3>Motosierra Fujita</h3>
-        <p>Agil y Practica</p>
-        <span class="price">$Consultar</span>
-        <a href="https://wa.me/573108394870?text=Hola,%20quiero%20más%20información%20sobre%20la%20Hélice%20para%20motor%20fuera%20de%20borda" class="whatsapp-btn">Consultar por WhatsApp</a>
-      </div>
-    </div>
-  </main>
-
-  <footer>
-    <p>&copy; 2025 Global de Maquinaria y Lubricantes Email: globaldemaquinariaylubricantes@gmail.com Telefono: +57 3108394870 WhatsApp- Medellín, Colombia</p>
-  </footer>
-
-  <!-- Modal para ampliar imagen -->
-  <div id="imageModal" class="modal" aria-hidden="true" role="dialog" aria-label="Imagen ampliada">
-    <button class="close" aria-label="Cerrar imagen">&times;</button>
-    <img class="modal-content" id="expandedImg" alt="">
-    <a id="modalWhatsappBtn" href="#" target="_blank" class="whatsapp-btn">Consultar por WhatsApp</a>
-  </div>
-
-</body>
+  </body>
 </html>
